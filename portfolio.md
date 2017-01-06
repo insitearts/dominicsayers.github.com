@@ -6,7 +6,7 @@ title: Projects
   {% for portfolio_data in site.portfolio %}
   <div class="portfolio-item">
     <h3><a href="{{ portfolio_data.url }}" target="portfolio">{{ portfolio_data.name }}</a></h3>
-    <h4>Client: {{ portfolio_data.client }}</h4>
+    <h4><span class="prompt">Client:</span> {{ portfolio_data.client }}</h4>
     {% if portfolio_data.thumbnail %}
     <div class="thumbnail" itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
       <a href="{{ portfolio_data.url }}" target="portfolio">
@@ -16,7 +16,7 @@ title: Projects
     {% endif %}
     {% if portfolio_data.note %}<p>{{ portfolio_data.note }}</p>{% endif %}
     {% if portfolio_data.artists %}
-      <p>Artist{% if portfolio_data.artists.length > 1 %}s{% endif %}:</p>
+      <p><span class="prompt">Artist{% if portfolio_data.artists.length > 1 %}s{% endif %}:</span></p>
       <ul>
         {% for artist in portfolio_data.artists %}
           <li>{{ artist }}</li>
