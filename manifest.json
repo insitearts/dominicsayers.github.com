@@ -1,5 +1,5 @@
 {
-	"name": "Dominic Sayers",
+	"name": "InSite Arts",
 	"icons": [
 		{
 			"src": "\/android-chrome-192x192.png",
@@ -12,6 +12,6 @@
 			"type": "image\/png"
 		}
 	],
-	"theme_color": "#ffffff",
+	"theme_color": "#520040",
 	"display": "standalone"
 }

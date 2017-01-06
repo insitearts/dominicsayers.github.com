@@ -10,9 +10,8 @@
 
 $rs: 16px
 
-$font-serif: Linux Libertine
-$font-sans: Open Sans, MundoSans, "Helvetica Neue", Arial, Helvetica, sans-serif
-
+$font-serif: Georgia, serif
+$font-sans:  Calibri, "Helvetica Neue", Arial, Helvetica, sans-serif
 
 @mixin respond-to($breakpoint)
   @media only screen and (max-width: $breakpoint + px)
@@ -144,11 +143,11 @@ body
     font-size: 50px
     text-align: center
     font-weight: 700
-    letter-spacing: -2px
+    letter-spacing: 0
     outline: 0
     line-height: 50px
     word-break: break-word
-    color: #333
+    color: #520040
   .blog-description
     margin: 0 0 20px
     padding: 0 $rs*2
@@ -168,16 +167,22 @@ body
     .portfolio-item
       display: inline-block
       float: left
-      width: 250px
-      margin: 0 30px 30px
-      padding: 0
-      min-height: 315px
+      width: 348px
+      margin: 0 15px 15px
+      padding: 15px
+      min-height: 382px
+      background-color: #F9F9F9
+      border-radius: 15px
 
-      &:first-child
-        padding-left: 0
+      h4
+        font-size: 18px
+        font-weight: 400
 
-      &:last-child
-        padding-right: 0
+      p
+        font-family: $font-sans
+        font-size: 14px
+        font-weight: 400
+        margin: 0
 
       ul
         list-style: none
@@ -196,7 +201,7 @@ body
 
       .thumbnail
         margin-bottom: 12px
-        height: 156px
+        height: 188px
 
   .author
     clear: both
@@ -315,6 +320,9 @@ body
   .btn
     width: 11em
     margin-bottom: 3px
+  .btn-info
+    background-color: #ADCC6B
+    border-color: #95B05C
   br
     display: none // Hack for Github repo readme
 

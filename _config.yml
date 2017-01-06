@@ -38,26 +38,27 @@ defaults:
       layout: page
 
 # Site settings
-title: "InSite Arts"
-description: "An independent art commissioning organisation"
-logo: "/assets/images/home.png"
-cover: "/assets/images/landing_page.jpg"
+title: InSite Arts
+description: An independent art commissioning organisation
+logo: /assets/images/avatar.png
+cover: /assets/images/landing_page.jpg
+home: /assets/images/home.png
 
-name: 'Sam Wilkinson'
-author: 'Sam Wilkinson'
-author_image: "/assets/images/samwilkinson.jpg"
+name: Sam Wilkinson
+author: Sam Wilkinson
+author_image: /assets/images/samwilkinson.jpg
 
 # social icons and sharing options
 social:
   linkedin:
     name: LinkedIn
-    url:  https://uk.linkedin.com/in/dominicsayers
-    desc: Connect with me on LinkedIn
+    url:  https://www.linkedin.com/company/insite-arts
+    desc: Follow us on LinkedIn
     contactable: true
   twitter:
     name: Twitter
-    handle: dominicsayers
-    url:  https://twitter.com/dominicsayers
+    handle: samwilk
+    url:  https://twitter.com/samwilk
     desc: Follow me on twitter
     share_url: https://twitter.com/share
     share_title: '?text='
@@ -65,8 +66,8 @@ social:
     contactable: true
   skype:
     name: Skype
-    handle: dominicsayers
-    url: skype:dominicsayers
+    handle: samwilkinson
+    url: skype:samwilkinson
     desc: Chat to me on Skype
     contactable: true
   envelope:
@@ -75,57 +76,42 @@ social:
     desc: Email me
     contactable: true
   disqus:
-    handle: dominicsayers
+    handle: insite-arts
 
-# Project portfolio
+# Projects
 portfolio:
   -
-    name: Xenapto
-    url: https://xenapto.com
-    thumbnail: xenapto.png
-    technology:
-      - Ruby on Rails
-      - PostgreSQL
-      - ElasticSearch
-      - Javascript
-      - Bootstrap
-      - Redis
-      - Resque
-      - TDD
-      - Continuous integration
-      - Agile
+    name: University Arms Hotel
+    url: http://www.universityarms.com/
+    thumbnail: universityarms.jpg
+    client: Melfords
+    artists:
+      - Emma Smith
   -
-    name: Anthemis Group
-    url: https://anthemis.com
-    thumbnail: anthemis.png
-    technology:
-      - Ruby on Rails
-      - Slack
-      - Podio
-      - Neo4J
-      - Email (inbound + outbound)
-      - Evernote
+    name: Blavatnik School of Government
+    thumbnail: blavatnik.jpg
+    client: Oxford University
+    artists:
+      - Kenny Hunter
   -
-    name: Sam Wilkinson
-    url: https://www.dominicsayers.com
-    thumbnail: dominicsayers.png
-    technology:
-      - Jekyll
-      - Github Pages
+    name: Cambridge Judge Business School
+    client: University of Cambridge
+    artists:
+      - to be appointed
   -
-    name: Cricket data
-    url: http://cricdata.org
-    thumbnail: cricdata.png
-    technology:
-      - Ruby on Rails
-      - MongoDB
+    name: Leeds Victoria Gate
+    thumbnail: victoriagate.jpg
+    client: Hammerson Plc
+    note: with Hazel Colquhoun
+    artists:
+      - Ryan Gander
   -
-    name: is_email
-    url: http://isemail.info
-    thumbnail: isemail.png
-    technology:
-      - Email
-      - Open source
-      - RFCs
-      - Standards
-      - PHP
+    name: Chapel Arches
+    thumbnail: chapelarches.jpg
+    client: Shanley Homes
+    artists:
+      - Gordon Young
+  -
+    name: Hull Capital of Culture
+    client: Hazel Colquhoun and Andrew Knight
+    note: Critical Friend to curators of the Temporary Project
