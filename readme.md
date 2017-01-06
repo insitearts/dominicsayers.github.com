@@ -1,6 +1,6 @@
 ---
 ---
-A personal space for my stuff
+Temporary website for InSite Arts
 
 <div class="buttons">
   <a href="/about/" class="btn btn-info">About me</a><br />

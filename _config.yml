@@ -2,7 +2,7 @@
 host: 0.0.0.0 # Ignored by Github Pages
 
 # Build settings
-url: "https://www.dominicsayers.com" # the base hostname & protocol for your site
+url: "https://www.insitearts.com" # the base hostname & protocol for your site
 permalink: :title/
 
 gems:
@@ -23,7 +23,7 @@ defaults:
       path: ''
     values:
       layout: 'default'
-      author: Dominic Sayers
+      author: Sam Wilkinson
   -
     scope:
       path: ''
@@ -38,14 +38,14 @@ defaults:
       layout: page
 
 # Site settings
-title: "Dominic Sayers"
-description: "English as tuppence, changing yet changeless as canal water, nestling in green nowhere, opsimath and eremite"
+title: "InSite Arts"
+description: "An independent art commissioning organisation"
 logo: "/assets/images/home.png"
-cover: "/assets/images/bg_landing_page.jpg"
+cover: "/assets/images/landing_page.jpg"
 
-name: 'Dominic Sayers'
-author: 'Dominic Sayers'
-author_image: "/assets/images/dominicsayers.jpg"
+name: 'Sam Wilkinson'
+author: 'Sam Wilkinson'
+author_image: "/assets/images/samwilkinson.jpg"
 
 # social icons and sharing options
 social:
@@ -63,34 +63,6 @@ social:
     share_title: '?text='
     share_link: "&amp;url="
     contactable: true
-  facebook:
-    url:	https://facebook.com/dominicsayers
-    desc: Connect with me facebook
-    share_url: https://www.facebook.com/sharer.php
-    share_title: "?title="
-    share_link: "&amp;u="
-    contactable: true
-  github:
-    url:  https://github.com/dominicsayers
-    desc: Fork me on github
-  stack-overflow:
-    url:  http://stackoverflow.com/users/63349/dominic-sayers
-    desc: Follow me on StackOverflow
-  quora:
-    url:  https://www.quora.com/profile/Dominic-Sayers
-    desc: Follow me on Quora
-  angellist:
-    url:  https://angel.co/dominicsayers
-    desc: Follow me on AngelList
-  # medium:
-  #   url: https://medium.com/@dominic.sayers
-  #   desc: Follow me on Medium
-  wikipedia-w:
-    url: https://en.wikipedia.org/wiki/User:Dominic_Sayers
-    desc: My contributions to Wikipedia
-  flickr:
-    url: https://www.flickr.com/photos/dominicsayers/
-    desc: My photos on Flickr
   skype:
     name: Skype
     handle: dominicsayers
@@ -99,13 +71,13 @@ social:
     contactable: true
   envelope:
     name: Email
-    url: mailto:dominic@sayers.cc
-    desc: Email me if all else fails
+    url: mailto:sam@insitearts.com
+    desc: Email me
     contactable: true
   disqus:
     handle: dominicsayers
 
-# Developer portfolio
+# Project portfolio
 portfolio:
   -
     name: Xenapto
@@ -134,7 +106,7 @@ portfolio:
       - Email (inbound + outbound)
       - Evernote
   -
-    name: Dominic Sayers
+    name: Sam Wilkinson
     url: https://www.dominicsayers.com
     thumbnail: dominicsayers.png
     technology:
