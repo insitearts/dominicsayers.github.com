@@ -4,8 +4,10 @@ title: Projects
 ---
 <div class="portfolio-items">
   {% for portfolio_data in site.portfolio %}
-  <div class="portfolio-item">
-    <h3><a href="{{ portfolio_data.url }}" target="portfolio">{{ portfolio_data.name }}</a></h3>
+  <div class="portfolio-item{% if portfolio_data.status == 'complete' %} complete{% endif %}">
+    <h3><a href="{{ portfolio_data.url }}" target="portfolio">
+      {{ portfolio_data.name }}{% if portfolio_data.status == 'complete' %} <span class="prompt">(complete)</span>{% endif %}
+    </a></h3>
     <h4><span class="prompt">Client:</span> {{ portfolio_data.client }}</h4>
     {% if portfolio_data.thumbnail %}
     <div class="thumbnail" itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
@@ -32,7 +34,6 @@ title: Projects
 
     <ul>
       <li>One St Peter’s Square</li>
-      <li><a href="http://www.lsqlondon.com/">LSQLONDON</a></li>
       <li>North West Cambridge</li>
       <li>London 2012 Olympic Delivery Authority</li>
       <li>London 2012 Olympic Park</li>

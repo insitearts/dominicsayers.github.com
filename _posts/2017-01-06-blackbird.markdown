@@ -10,7 +10,7 @@ tags: featured
 | Architect | MAKE Architects |
 | Client | Core Development Partners |
 | Date | 2016 |
-| Location | LSQ (48 Leicester Square, London) |
+| Location | [LSQ (48 Leicester Square, London)](http://www.lsqlondon.com/){:target="_blank"} |
 
 Blackbird (the persistence of vision) is a total artwork in the form of a frieze, circumnavigating the LSQ building rather than occupying individual panels, it introduces a new horizontal and lyrical line to counterpoint the strong verticality and order of the existing architecture, opening up a new relationship between the building and its historical context.
 
