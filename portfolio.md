@@ -10,7 +10,9 @@ title: Projects
     {% if portfolio_data.thumbnail %}
     <div class="thumbnail" itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
       <a href="{{ portfolio_data.url }}" target="portfolio">
-        <img itemprop="url" src="/assets/article_images{{ page.url }}{{ portfolio_data.thumbnail }}">
+        <img itemprop="url" src="https://res.cloudinary.com/insite-arts/image/upload/c_scale,h_178,w_308/v1490175894/website/{{ portfolio_data.thumbnail }}">
+        <!-- https://res.cloudinary.com/insite-arts/image/upload/c_scale,h_178,w_308/v1490175894/website/universityarms.jpg -->
+        <!-- https://res.cloudinary.com/insite-arts/image/upload/c_scale,h_178,w_380/v1490175894/website/chapelarches.jpg -->
       </a>
     </div>
     {% endif %}
