@@ -1,5 +1,4 @@
-# Projects
-portfolio:
+projects:
   -
     name: University Arms Hotel
     url: http://hunch.exchange/
@@ -36,7 +35,7 @@ portfolio:
   -
     name: Hull Capital of Culture
     thumbnail: hull-blade.jpg # License information here http://www.geograph.org.uk/more.php?id=5248713
-    client: Hazel Colquhoun and Andrew Knight
+    client: Hazel Colquhoun/Andrew Knight
     note: Critical Friend to curators of the Temporary Project
   -
     name: LSQLondon
@@ -47,46 +46,7 @@ portfolio:
     artists:
       - Kenny Hunter
 
-# Local server settings
-host: 0.0.0.0 # Ignored by Github Pages
-
-# Build settings
-url: "https://www.insitearts.com" # the base hostname & protocol for your site
-permalink: :title/
-
-gems:
-  - jemoji
-  - jekyll-sitemap
-
-collections:
-  tag_pages:
-    output: true
-    permalink: /tag/:name/
-  authors:
-    output: true
-    permalink: /author/:name/
-
-defaults:
-  -
-    scope:
-      path: ''
-    values:
-      layout: 'default'
-      author: Sam Wilkinson
-  -
-    scope:
-      path: ''
-      type: posts
-    values:
-      layout: post
-  -
-    scope:
-      path: ''
-      type: pages
-    values:
-      layout: page
-
-# Site settings
+# Author settings
 title: InSite Arts
 description: An independent art commissioning organisation
 logo: /assets/images/avatar.png
@@ -127,3 +87,48 @@ social:
   disqus:
     handle: insite-arts
 
+# Site settings
+collections:
+  tag_pages:
+    output: true
+    permalink: /tag/:name/
+  authors:
+    output: true
+    permalink: /author/:name/
+
+defaults:
+  -
+    scope:
+      path: ''
+    values:
+      layout: 'default'
+      author: Sam Wilkinson
+  -
+    scope:
+      path: ''
+      type: posts
+    values:
+      layout: post
+  -
+    scope:
+      path: ''
+      type: pages
+    values:
+      layout: page
+
+
+# Local server settings
+host: 0.0.0.0 # Ignored by Github Pages
+
+# Build settings
+url: "https://www.insitearts.com" # the base hostname & protocol for your site
+permalink: :title/
+
+gems:
+  - jemoji
+  - jekyll-sitemap
+
+markdown: kramdown
+
+kramdown:
+  input: GFM
