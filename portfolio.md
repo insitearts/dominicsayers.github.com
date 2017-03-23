@@ -33,10 +33,10 @@ title: Projects
     <p>Call for more details</p>
 
     <ul>
-      <li>One St Peter’s Square</li>
+      <li><a href="/live-the-life-you-imagine">One St Peter’s Square</a></li>
       <li>North West Cambridge</li>
       <li>London 2012 Olympic Delivery Authority</li>
-      <li>London 2012 Olympic Park</li>
+      <li><a href="/olympic-park">London 2012 Olympic Park</a></li>
     </ul>
 
     <dl>
@@ -54,7 +54,7 @@ title: Projects
     <p>Call for more details</p>
 
     <ul>
-      <li>Bristol Cabot Circus</li>
+      <li><a href="/cabotcircus">Bristol Cabot Circus</a></li>
       <li>Exeter Princesshey</li>
       <li>Leicester High Cross</li>
       <li>Canterbury Whitefriars</li>
