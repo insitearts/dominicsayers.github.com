@@ -41,6 +41,21 @@ projects:
     client: Core Development Partners
     artists:
       - Kenny Hunter
+  - name: North West Cambridge
+    client: University of Cambridge
+    artists:
+      - Winter & Horbelt
+      - Ruth Proctor
+      - David Batchelor
+      - Somewhere
+      - Tania Kovats
+      - Hannah Rickart
+      - Aid and Abet
+      - Bedwyr Williams
+      - Ruth Ewan
+      - Lise Autogena & Josh Portaway
+      - Melanie Monchau
+      - Fernando Garcia Dory
 published: true
 ---
 
