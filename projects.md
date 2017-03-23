@@ -42,7 +42,7 @@ projects:
       - David Batchelor
       - Somewhere
       - Tania Kovats
-      - Hannah Rickart
+      - Hannah Rickard
       - Aid and Abet
       - Bedwyr Williams
       - Ruth Ewan
