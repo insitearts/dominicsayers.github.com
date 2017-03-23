@@ -67,7 +67,7 @@ published: true
 Call for more details
 
 * [One St Peter’s Square](/live-the-life-you-imagine)
-* London 2012 Olympic Delivery Authority (http://greatlengths2012.org.uk/)
+* [London 2012 Olympic Delivery Authority](http://greatlengths2012.org.uk/)
 * [London 2012 Olympic Park](/olympic-park)
 
 Artists:
