@@ -36,6 +36,7 @@ projects:
     note: Critical Friend to curators of the Temporary Project
   - name: North West Cambridge
     client: University of Cambridge
+    thumbnail: DSC_0301.jpg
     artists:
       - Winter & Horbelt
       - Ruth Proctor
