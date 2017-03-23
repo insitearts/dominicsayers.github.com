@@ -2,52 +2,46 @@
 layout: projects
 title: Projects
 projects:
-  -
-    name: University Arms Hotel
-    url: http://hunch.exchange/
+  - name: University Arms Hotel
+    url: 'http://hunch.exchange/'
     thumbnail: universityarms.jpg
     client: Melfords
     artists:
       - Emma Smith
-  -
-    name: Blavatnik School of Government
+  - name: Blavatnik School of Government
     thumbnail: blavatnik.jpg
     client: Oxford University
     artists:
       - Kenny Hunter
-  -
-    name: Cambridge Judge Business School
+  - name: Cambridge Judge Business School
     client: University of Cambridge
     thumbnail: cambridge-judge.jpg
     artists:
       - Nicole Wermer
       - Caroline Wright
-  -
-    name: Leeds Victoria Gate
+  - name: Leeds Victoria Gate
     thumbnail: victoriagate.jpg
     client: Hammerson Plc
     note: with Hazel Colquhoun
     artists:
       - Ryan Gander
-  -
-    name: Chapel Arches
+  - name: Chapel Arches
     thumbnail: chapelarches.jpg
     client: Shanley Homes
     artists:
       - Gordon Young
-  -
-    name: Hull Capital of Culture
-    thumbnail: hull-blade.jpg # License information here http://www.geograph.org.uk/more.php?id=5248713
+  - name: Hull Capital of Culture
+    thumbnail: hull-blade.jpg
     client: Hazel Colquhoun/Andrew Knight
     note: Critical Friend to curators of the Temporary Project
-  -
-    name: LSQLondon
+  - name: LSQLondon
     status: complete
-    url: http://www.insitearts.com/blackbird/
+    url: 'http://www.insitearts.com/blackbird/'
     thumbnail: blackbird.jpg
     client: Core Development Partners
     artists:
       - Kenny Hunter
+published: true
 ---
 
 {% include current_projects.md projects=page.projects %}
