@@ -97,7 +97,7 @@ Call for more details
 ### Other artists we've commissioned
 
 Call for more details
-: Bedwyr Williams
+: Clare Brew
 : Clare Morgan
 : Clare Twomey
 : Dan Perjovski
@@ -109,7 +109,6 @@ Call for more details
 : Jacqui Poncelet
 : Janet Hodgson
 : John Newling
-: Josh Portaway
 : Julie Westerman
 : Lulu Quinn
 : Marie Jean Hoffner
@@ -118,14 +117,12 @@ Call for more details
 : Martine Neddam
 : muf architecture/art
 : Nayan Kulkarni
-: Pope and Guthrie (Somewhere)
 : Ralph Hoyte
-: Ruth Proctor
 : Studio Rosso
 : Susanna Heron
-: Tania Kovats
 : Timorous Beasties
 : Tony Sinden
 : William Pye
-: Winter and Horbelt
+
+
 </div>
