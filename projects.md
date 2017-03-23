@@ -34,13 +34,6 @@ projects:
     thumbnail: hull-blade.jpg
     client: Hazel Colquhoun/Andrew Knight
     note: Critical Friend to curators of the Temporary Project
-  - name: LSQLondon
-    status: complete
-    url: 'http://www.insitearts.com/blackbird/'
-    thumbnail: blackbird.jpg
-    client: Core Development Partners
-    artists:
-      - Kenny Hunter
   - name: North West Cambridge
     client: University of Cambridge
     artists:
@@ -56,6 +49,13 @@ projects:
       - Lise Autogena & Josh Portaway
       - Melanie Monchau
       - Fernando Garcia Dory
+  - name: LSQLondon
+    status: complete
+    url: 'http://www.insitearts.com/blackbird/'
+    thumbnail: blackbird.jpg
+    client: Core Development Partners
+    artists:
+      - Kenny Hunter
 published: true
 ---
 
