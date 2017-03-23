@@ -21,8 +21,8 @@ In the context of Leicester Square today, a focal point of contemporary cinema, 
 
 In the UK the adaptable Blackbird is both a resident and migratory species, appearing in Shakespeare plays, Beatles Lyrics and traditional nursery rhymes and therefore felt like a good choice for London. It is a popular bird with a recognizable and graphic quality that would help it to register visually over such a large building. The first floor window spaces that were inherited through the redevelopment of the building to create the frieze are varied in size and shape. This was used as an opportunity to show how a subject in motion appears on film as well as to further accentuate movement.
 
-![]({{site.baseurl}}/https://res.cloudinary.com/insite-arts/image/upload/v1490269597/website/DSC_0074.jpg)
+![](https://res.cloudinary.com/insite-arts/image/upload/v1490269597/website/DSC_0074.jpg)
 
-![]({{site.baseurl}}/https://res.cloudinary.com/insite-arts/image/upload/v1490269592/website/DSC_0076.jpg)
+![](https://res.cloudinary.com/insite-arts/image/upload/v1490269592/website/DSC_0076.jpg)
 
 
